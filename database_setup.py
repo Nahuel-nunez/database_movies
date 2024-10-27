@@ -20,7 +20,6 @@ try:
         cursor.execute("CREATE DATABASE IF NOT EXISTS database_movies")
         cursor.execute("USE database_movies")
 
-        # Crear tablas (como en el código anterior)
         # Crear tabla Usuarios
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS Usuarios (
